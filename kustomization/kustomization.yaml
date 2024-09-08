@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m
-  path: ./clusters/openshift-cluster/kustomization/kustomization.yaml
+  path: ./kustomization/kustomization.yaml
   prune: true
   sourceRef:
     kind: GitRepository
