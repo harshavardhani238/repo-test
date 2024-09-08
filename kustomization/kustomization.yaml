@@ -11,5 +11,5 @@ spec:
     kind: GitRepository
     name: flux-system
   targetNamespace: test-namespace
-  timeout: 1m
+  timeout: 5m # Adjusted timeout to 5 minutes for complex deployments
   wait: true
