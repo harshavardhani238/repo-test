@@ -5,11 +5,11 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m
-  path: ./base/kustomization.yaml  # Ensure the correct relative path is set
+  path: ./kustomization  # Ensure the correct relative path is set
   prune: true
   sourceRef:
     kind: GitRepository
     name: flux-system
-  targetNamespace: test-namespace
+  targetNamespace: test
   timeout: 5m
   wait: true
