@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10m
-  path: ./kustomization  # Ensure the correct relative path is set
+  path: ./base/kustomization.yaml  # Ensure the correct relative path is set
   prune: true
   sourceRef:
     kind: GitRepository
